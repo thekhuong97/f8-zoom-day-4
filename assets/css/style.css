@@ -77,6 +77,10 @@ hr {
   text-align: justify;
 }
 
+.education-heading {
+  margin-top: 16px;
+}
+
 .education h3 span {
   font-weight: normal;
 }
