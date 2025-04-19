@@ -7,14 +7,15 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: #a47673;
+  /* background: #a47673; */
+  background-image: linear-gradient(192deg, #ceaba8 27%, #a47673 27%);
 }
 
 .content {
   max-width: 660px;
   margin: 28px auto 0;
   background: #fff;
-  box-shadow: 30px 40px 6px #765352;
+  box-shadow: 25px 35px 4px rgba(120, 80, 80, 0.6);
 }
 
 .header {
