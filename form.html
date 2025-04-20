@@ -18,6 +18,7 @@
             type="text"
             placeholder="Enter Full Name..."
             spellcheck="false"
+            required
             id="name"
           />
         </div>
@@ -28,6 +29,7 @@
             type="email"
             placeholder="Enter Email..."
             spellcheck="false"
+            required
             id="email"
           />
         </div>
@@ -38,6 +40,7 @@
             type="tel"
             placeholder="Enter Phone Number..."
             spellcheck="false"
+            required
             id="telephone"
           />
         </div>
@@ -47,6 +50,7 @@
             class="password"
             type="password"
             placeholder="Enter Password..."
+            required
             id="password"
           />
         </div>
@@ -56,6 +60,7 @@
             class="confirm-password"
             type="password"
             placeholder="ReEnter Password..."
+            required
             id="confirm-password"
           />
         </div>
@@ -101,18 +106,19 @@
               type="checkbox"
               name="communication"
               value="newsletter"
-              id=""
+              checked
+              id="newsletter"
             />
-            <label class="newsletter" for="">Subscribe to Newsletter</label>
+            <label class="newsletter" for="newsletter">Subscribe to Newsletter</label>
           </div>
           <div>
             <input
               type="checkbox"
               name="communication"
               value="promotional-emails"
-              id=""
+              id="promotional-emails"
             />
-            <label class="promotional-emails" for=""
+            <label class="promotional-emails" for="promotional-emails"
               >Receive Promotional Emails</label
             >
           </div>
@@ -121,9 +127,9 @@
               type="checkbox"
               name="communication"
               value="product-updates"
-              id=""
+              id="product-updates"
             />
-            <label class="product-updates" for="">Get Product Updates</label>
+            <label class="product-updates" for="product-updates">Get Product Updates</label>
           </div>
         </div>
         <div class="form-group-submit">
