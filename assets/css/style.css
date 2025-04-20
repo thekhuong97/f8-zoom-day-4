@@ -177,6 +177,10 @@ form label {
   font-weight: normal;
 }
 
+.gender {
+  font-weight: 500;
+}
+
 .form-group-avatar label:nth-child(2) {
   text-align: center;
 }
